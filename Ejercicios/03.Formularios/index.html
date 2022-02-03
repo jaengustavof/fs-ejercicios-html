@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios viejuners</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend><h2>El club viejuner</h2></legend>
+            <h3>Tú:</h3>
+
+            <label for="name">Nombre:</label><br>
+            <input type="text" name="name" autofocus tabindex="1" placeholder="Nombre"><br><br>
+
+            <label for="lname">Apellidos:</label><br>
+            <input type="text" name="lname" tabindex="2" placeholder="Apellidos"><br><br>
+
+            <label for="age">Edad:</label><br>
+            <input type="number" name="age" max="99" tabindex="3" placeholder="Edad"><br><br>
+
+            <label for="gender">Sexo:</label><br>
+            <label for="male">Hombre<input type="radio" name="male" tabindex="4"> </label>       
+            <label for="female">Mujer<input type="radio" name="female" tabindex="5"></label><br><br><br><br>
+
+            <label for="viejuner" tabindex="6">Me siento viejuner</label>
+            <input type="checkbox" name="viejuner"><br><br>
+            <br><br>
+
+            <label for="sobreMi">Algo Sobre Mi:</label><br>
+            <textarea name="sobreMi" id="" cols="30" rows="10" tabindex="7" placeholder="Algo sobre mi que me gustaría contar..."></textarea><br><br>
+
+            <h3>Tus circunstancias:</h3>
+
+            <label for="email">Correo electrónico: </label><br>
+            <input type="email" name="email" tabindex="8" placeholder="ejemplo@email.com"><br><br>
+
+            <label for="phone">Teléfono: </label><br>
+            <input type="phone" name="phone" tabindex="9" placeholder="123 456 798"><br><br><br><br>
+
+            <input type="reset" value="Reset" tabindex="11">
+            <input type="submit" tabindex="10" name="enviarClub">
+
+        </fieldset>
+    </form>
+
+    <form action="">
+        <fieldset>
+            <legend><h2>Los ladronzuelos de bicicletas</h2></legend>
+            <label for="date">Fecha:</label><br>
+            <input type="date" name="date"><br><br>
+
+            <label for="time">Hora:</label><br>
+            <input type="time" name="time"><br><br>
+
+            <label for="colorBike">Color de la bicicleta:</label><br>
+            <input type="color" name="colorBike"><br><br>
+
+            <label for="range">Rango de precio:</label><br>
+            <input type="range" name="range"><br><br>
+
+            <label for="bikeType">Tipo de bicicleta: </label><br>
+            <select name="bikeType" id="">    
+                <option value="0">..Paseo..</option>                
+                <option value="1">Señorial</option>
+                <option value="2">Anti-plebeyos</option>
+                <option value="3">PorEncimaDelHombro</option>
+            </select>  <br>
+            <select name="bikeType" id="">  
+                <option value="0">..Montaña..</option>                
+                <option value="4">Gamusinos</option>
+                <option value="5">Hueleflores premium</option>
+                <option value="6">Fango lover</option>
+            </select>  <br>
+            <select name="bikeType" id="">    
+                <option value="0">..Carreras..</option>                
+                <option value="7">Metroymedio</option>
+                <option value="8">3 de la tarde. Fluorescente edition</option>
+                <option value="9">Grupitors</option>
+            </select><br><br>
+
+            <label for="accesories">Accesorios: </label><br>
+            <select name="accesories" id="" multiple>    
+                <option value="0">..Ninguno..</option>                
+                <option value="1">Ruedines</option>
+                <option value="2">Pegatinas</option>
+                <option value="3">Cestita</option>
+                <option value="4">Bomba de aire</option>
+                <option value="5">Timbre</option>
+                <option value="6">Foco</option>
+            </select><br><br>
+
+            <label for="brand">Marca:</label><br>
+            <input list="brand-name" id="brand" name="brand" />
+
+            <datalist id="brand-name">
+                <option value="specialized">
+                    <option value="trek">
+                    <option value="merida">
+                    <option value="scott">
+                    <option value="giant">
+                    <option value="cube">
+                    <option value="lapierre">
+                    <option value="cannondale">
+                    <option value="bmc">
+                    <option value="canyon">
+                    <option value="look">
+                    <option value="protek">
+                    <option value="megamo">
+                    <option value="pinarello">
+                    <option value="bianchi">
+                    <option value="bh">
+                    <option value="factor">
+                    <option value="ghost">
+                    <option value="cervélo">
+                    <option value="argon">
+            </datalist><br><br>
+
+
+            <input type="reset" value="Reset" tabindex="11">
+            <input type="submit" tabindex="10" name="enviarLadron">
+        </fieldset>
+    </form>
+</body>
+</html>
